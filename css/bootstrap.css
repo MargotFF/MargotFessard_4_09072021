@@ -1857,16 +1857,16 @@ abbr[title] {
 }
 
 blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee
+    margin: 5px 0;
+    padding: 0 10px;
+    font-style: italic;
 }
 
 blockquote ol:last-child,
 blockquote p:last-child,
 blockquote ul:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
+    font-size: 1.8rem;
 }
 
 blockquote .small,

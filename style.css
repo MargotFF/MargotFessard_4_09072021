@@ -705,8 +705,20 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 2.2rem;
     line-height: 1.4em;
+}
+
+.title-1 {
+    padding: 0 210px;
+}
+
+.title-2 {
+    padding: 0 290px;
+}
+
+figure {
+    padding: 0 100px;
 }
 
 h3 {
@@ -887,6 +899,14 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    .title-1, .title-2 {
+        padding: 0 100px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1025,6 +1045,24 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    figure {
+        padding: 0 40px;
+    }
+
+    blockquote p {
+        font-size: 1.6rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .title-1, .title-2 {
+        padding: 0 45px;
     }
 }
 
