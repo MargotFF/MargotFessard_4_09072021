@@ -1,3 +1,7 @@
+* {
+    list-style: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -284,7 +288,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 .navbar {
@@ -324,7 +328,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -359,6 +363,10 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.backlinks {
+    line-height: 1.7;
 }
 
 @media (min-width: 768px) {
@@ -475,11 +483,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 3rem!important;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 6rem!important;
 }
 
 .sm-shadow {
@@ -658,17 +666,17 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 3.8rem;
 }
 
 .hero-bloc-text-sub {
-    font-size: 36px;
+    font-size: 3.6rem;
 }
 
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
@@ -676,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.6rem;
 }
 
 .tight-width-whitespace {
@@ -685,7 +693,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 2rem;
     font-family: "Open Sans";
 }
 
@@ -694,13 +702,13 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 25px auto 30px auto;
 }
 
 h2 {
@@ -721,7 +729,7 @@ figure {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -836,6 +844,16 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+.footer-list {
+    font-size: 1.4rem;
+    padding-left: 0;
+}
+
+.footer-link:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -897,10 +915,6 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
-
-    h2 {
-        font-size: 1.9rem;
     }
 
     .title-1, .title-2 {
@@ -1072,6 +1086,10 @@ h4 {
 }
 
 @media (max-width: 480px) {
+    #bloc-1-hero h1 {
+        font-size: 2.8rem;
+    }
+
     h2 {
         font-size: 1.8rem;
     }
